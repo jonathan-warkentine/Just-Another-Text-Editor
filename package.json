@@ -1,0 +1,33 @@
+{
+  "name": "jate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "concurrently 'cd client && npm run build && npm run start'  'cd server && npm run start'",
+    "start": "concurrently 'cd client && npm run build' 'cd server && npm run start'",
+    "server": "",
+    "build": "",
+    "install": "",
+    "client": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-warkentine/Just-Another-Text-Editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathan-warkentine/Just-Another-Text-Editor/issues"
+  },
+  "homepage": "https://github.com/jonathan-warkentine/Just-Another-Text-Editor#readme"
+}
