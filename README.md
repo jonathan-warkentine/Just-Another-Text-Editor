@@ -58,7 +58,7 @@ Data persistence of user input is achieved via a mix of local storage and the [I
 
 ![IndexedDB](./assets/images/indexedDB-screenshot.png)
 
-Taking full advantage of its offline functionality, this PWA can be installed onto a user's browser/homescreen for offline/local use. Notice the presence of the installed PWA in the browsers available apps, the opening of the PWA standalone window, and the continued data persistence of user input.
+Taking full advantage of its offline functionality, this PWA can be installed onto a user's browser/homescreen for offline/local use. Notice the presence of the installed PWA in the browsers available apps, the opening of the PWA standalone window, and the continued data persistence of user input. Notice also that the 'install' button disappears upon installation.
 
 ![Install Demo](./assets/images/install-demo.gif)
 
