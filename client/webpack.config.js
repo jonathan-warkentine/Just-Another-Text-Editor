@@ -28,12 +28,18 @@ module.exports = () => {
         short_name: 'JATE',
         description: 'A Simple Text Editor with Robust PWA Functionality',
         startURL: './index.html',
-        theme: '#add8e6',
+        theme_color: '#225ca3',
+        background_color: '#225ca3',
         icons: {
           src: './src/images/logo.png',
           sizes: [72, 96, 128, 144, 152, 192, 384, 512],
           destination: './assets/icons',
         },
+        id: 'jate',
+        related_applications: [{
+          platform: "webapp",
+          id: "jate"
+        }],
       })
     ],
     devtool: 'source-map',
@@ -48,6 +54,13 @@ module.exports = () => {
           type: 'asset/resource',
           generator: {
             filename: 'assets/images/[name][ext]'
+          }
+        },
+        {
+          test: /\.(ico)$/i,
+          type: 'asset/resource',
+          generator: {
+            filename: 'assets/icons/[name][ext]'
           }
         },
         {

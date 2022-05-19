@@ -16,6 +16,8 @@ export default class {
       value: '',
       mode: 'javascript',
       theme: 'monokai',
+      matchBrackets: true,
+      autoCloseBrackets: true,
       lineNumbers: true,
       lineWrapping: true,
       autofocus: true,

@@ -3,9 +3,10 @@ import Editor from './editor';
 import './database';
 import '../css/style.css';
 const logo = require('../images/logo.png');
+import '../../favicon.ico';
 import 'babel-polyfill';
 
-const icon = document.querySelector('#icon');
+const icon = document.querySelector('img[alt="JATE icon"]');
 icon.src = logo;
 
 const main = document.querySelector('#main');
