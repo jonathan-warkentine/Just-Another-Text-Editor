@@ -33,7 +33,7 @@ self.oninstall = function(event) {
       return cache.addAll([
         '/',
         '/install.bundle.js',
-        '/main.bundle.js'
+        '/main.bundle.js',
       ]);
     })
   );
